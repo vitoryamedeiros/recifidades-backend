@@ -10,7 +10,8 @@ public class PJ extends Usuario{
     private String logradouro;
     private String numeroContato;
 
-    public PJ(int cnpj, String razaoSocial, String inscricaoEstadual, String estado, String cidade, String bairro, String logradouro, String numeroContato, String nomeContato) {
+    public PJ(String email, String senha, int cnpj, String razaoSocial, String inscricaoEstadual, String estado, String cidade, String bairro, String logradouro, String numeroContato, String nomeContato) {
+        super(email, senha);
         this.cnpj = cnpj;
         this.razaoSocial = razaoSocial;
         this.inscricaoEstadual = inscricaoEstadual;
@@ -94,5 +95,10 @@ public class PJ extends Usuario{
 
     public void setNomeContato(String nomeContato) {
         this.nomeContato = nomeContato;
+    }
+
+    @Override
+    public String getTipoPessoa() {
+        return "";
     }
 }

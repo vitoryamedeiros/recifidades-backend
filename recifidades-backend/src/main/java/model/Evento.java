@@ -7,12 +7,13 @@ package model;
 
 public class Evento {
     private int UUID;
+    private static int contaEventos = 1;
     private String nome;
     private String classificacao;
     private String dataEvento;
 
-    public Evento(int UUID, String nome, String classificacao, String dataEvento, String horaEventoInicio, String horaEventoFim, int qtMaxPessoas, String localEvento) {
-        this.UUID = UUID;
+    public Evento(String nome, String classificacao, String dataEvento, String horaEventoInicio, String horaEventoFim, int qtMaxPessoas, String localEvento) {
+        this.UUID = contaEventos++;
         this.nome = nome;
         this.classificacao = classificacao;
         this.dataEvento = dataEvento;
@@ -22,7 +23,7 @@ public class Evento {
         this.localEvento = localEvento;
     }
     public void exibirInformacoes() {
-        System.out.println("ID: " + idEvento + ", Nome: " + nome + ", Local: " + local + ", Capacidade: " + capacidadeMax);
+        System.out.println("ID: " + UUID + ", Nome: " + nome + ", Local: " + localEvento + ", Capacidade: " + qtMaxPessoas);
     }
 
     public int getUUID() {

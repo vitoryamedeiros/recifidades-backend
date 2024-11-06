@@ -1,20 +1,24 @@
 package model;
 
-public class PF extends Usuario{
+import java.util.UUID;
+
+public class PF extends Usuario {
     private String cpf;
     private String nome;
     private String dataNascimento;
     private String telefone;
     private char sexo;
 
-    public PF(int cpf, String nome, String dataNascimento, String telefone, char sexo) {
+    // Adicionei os parâmetros email e senha no construtor
+    public PF(String email, String senha, String cpf, String nome, String dataNascimento, String telefone, char sexo) {
+        super(email, senha); // Chama o construtor da superclasse com email e senha
         this.cpf = cpf;
-        super(email, senha);
         this.nome = nome;
         this.dataNascimento = dataNascimento;
         this.telefone = telefone;
         this.sexo = sexo;
     }
+
     @Override
     public String getTipoPessoa() {
         return "Pessoa Física";
@@ -23,14 +27,14 @@ public class PF extends Usuario{
     @Override
     public void exibirDados() {
         super.exibirDados();
-        System.out.println("CPF: " + cpf + ", Telefone: " + telefone);
+        System.out.println("CPF: " + cpf + ", Telefone: " + telefone + ", Data de Nascimento: " + dataNascimento);
     }
 
-    public int getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(int cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 

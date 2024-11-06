@@ -1,26 +1,19 @@
 package model;
 
-import java.util.Scanner;
-
-public class Usuario {
+public abstract class Usuario {
     private int UUID;
-    private static  int incId = 1;
+    private static int incId = 1;
     private String email;
+    private String senha;
 
-    public Usuario(int UUID, String email, String senha) {
+    public Usuario(String email, String senha) {
         this.UUID = incId++;
         this.email = email;
         this.senha = senha;
     }
 
-    private String senha;
-
     public int getUUID() {
         return UUID;
-    }
-
-    public void setUUID(int UUID) {
-        this.UUID = UUID;
     }
 
     public String getEmail() {
@@ -32,19 +25,16 @@ public class Usuario {
     }
 
     public String getSenha() {
-
         return senha;
     }
 
     public void setSenha(String senha) {
-
         this.senha = senha;
-
     }
-    public abstract  String getTipoPessoa();
 
-    public void exibirdados(){
+    public abstract String getTipoPessoa();
+
+    public void exibirDados() {
         System.out.println("Usuario ID: " + this.UUID + ", Email: " + this.email);
     }
-
 }
