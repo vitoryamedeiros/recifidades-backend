@@ -1,7 +1,7 @@
 package model;
 
 public class PF extends Usuario{
-    private int cpf;
+    private String cpf;
     private String nome;
     private String dataNascimento;
     private String telefone;
@@ -9,10 +9,21 @@ public class PF extends Usuario{
 
     public PF(int cpf, String nome, String dataNascimento, String telefone, char sexo) {
         this.cpf = cpf;
+        super(email, senha);
         this.nome = nome;
         this.dataNascimento = dataNascimento;
         this.telefone = telefone;
         this.sexo = sexo;
+    }
+    @Override
+    public String getTipoPessoa() {
+        return "Pessoa Física";
+    }
+
+    @Override
+    public void exibirDados() {
+        super.exibirDados();
+        System.out.println("CPF: " + cpf + ", Telefone: " + telefone);
     }
 
     public int getCpf() {

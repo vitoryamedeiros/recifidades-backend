@@ -21,6 +21,9 @@ public class Evento {
         this.qtMaxPessoas = qtMaxPessoas;
         this.localEvento = localEvento;
     }
+    public void exibirInformacoes() {
+        System.out.println("ID: " + idEvento + ", Nome: " + nome + ", Local: " + local + ", Capacidade: " + capacidadeMax);
+    }
 
     public int getUUID() {
         return UUID;
