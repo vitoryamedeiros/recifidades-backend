@@ -1,13 +1,21 @@
-package model;
+package model.person;
 
-public abstract class Usuario {
+import jakarta.persistence.*;
+
+@Entity
+@Table(name="pessoa")
+@MappedSuperclass
+public abstract class person {
+    @Id
+    @Column(name = "UUID")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int UUID;
-    private static int incId = 1;
+    @Column(name = "email")
     private String email;
+    @Column(name = "senha")
     private String senha;
 
-    public Usuario(String email, String senha) {
-        this.UUID = incId++;
+    public person(String email, String senha) {
         this.email = email;
         this.senha = senha;
     }
@@ -35,6 +43,6 @@ public abstract class Usuario {
     public abstract String getTipoPessoa();
 
     public void exibirDados() {
-        System.out.println("Usuario ID: " + this.UUID + ", Email: " + this.email);
+        System.out.println("person ID: " + this.UUID + ", Email: " + this.email);
     }
 }

@@ -1,14 +1,32 @@
-package model;
+package model.person;
 
-public class PJ extends Usuario{
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "pessoajuridica")
+public class PJ extends person {
+    @Id
+    @Column(name = "cnpj")
     private int cnpj;
+    @Column(name = "razaosocial")
     private String razaoSocial;
+    @Column(name = "inscestadual")
     private String inscricaoEstadual;
+    @Column(name = "estado")
     private String estado;
+    @Column(name = "cidade")
     private String cidade;
+    @Column(name = "bairro")
     private String bairro;
+    @Column(name = "logradouro")
     private String logradouro;
+    @Column(name = "numerocontato")
     private String numeroContato;
+    @Column(name = "nomecontato")
+    private String nomeContato;
 
     public PJ(String email, String senha, int cnpj, String razaoSocial, String inscricaoEstadual, String estado, String cidade, String bairro, String logradouro, String numeroContato, String nomeContato) {
         super(email, senha);
@@ -22,8 +40,6 @@ public class PJ extends Usuario{
         this.numeroContato = numeroContato;
         this.nomeContato = nomeContato;
     }
-
-    private String nomeContato;
 
     public int getCnpj() {
         return cnpj;

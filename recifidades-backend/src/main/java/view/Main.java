@@ -8,7 +8,7 @@ package view;
  */
 
 import java.util.Scanner;
-import model.PF;
+import model.person.PF;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,19 +1,36 @@
-package model;
+package model.events;
+
+import jakarta.persistence.*;
+
 /**
  * @author
  * @version
  * @since
  * */
-
+@Entity
+@Table(name = "evento")
+@MappedSuperclass
 public class Evento {
+    @Id
+    @Column(name = "evID")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int UUID;
-    private static int contaEventos = 1;
+    @Column(name = "nome")
     private String nome;
+    @Column(name = "classificacao")
     private String classificacao;
+    @Column(name = "dataevento")
     private String dataEvento;
+    @Column(name = "horaeventoI")
+    private String horaEventoInicio;
+    @Column(name = "horaeventoF")
+    private String horaEventoFim;
+    @Column(name = "qtmaxp")
+    private int qtMaxPessoas;
+    @Column(name = "localevento")
+    private String localEvento;
 
     public Evento(String nome, String classificacao, String dataEvento, String horaEventoInicio, String horaEventoFim, int qtMaxPessoas, String localEvento) {
-        this.UUID = contaEventos++;
         this.nome = nome;
         this.classificacao = classificacao;
         this.dataEvento = dataEvento;
@@ -28,10 +45,6 @@ public class Evento {
 
     public int getUUID() {
         return UUID;
-    }
-
-    public void setUUID(int UUID) {
-        this.UUID = UUID;
     }
 
     public String getNome() {
@@ -90,9 +103,5 @@ public class Evento {
         this.localEvento = localEvento;
     }
 
-    private String horaEventoInicio;
-    private String horaEventoFim;
-    private int qtMaxPessoas;
-    private String localEvento;
 
 }

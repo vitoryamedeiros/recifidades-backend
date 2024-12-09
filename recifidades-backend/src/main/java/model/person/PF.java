@@ -1,12 +1,23 @@
-package model;
+package model.person;
 
-import java.util.UUID;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
-public class PF extends Usuario {
+@Entity
+@Table(name = "pessoafisica")
+public class PF extends person {
+    @Id
+    @Column(name = "cpf")
     private String cpf;
+    @Column(name = "nome")
     private String nome;
+    @Column(name = "dataNascimento")
     private String dataNascimento;
+    @Column(name = "telefone")
     private String telefone;
+    @Column(name = "sexo")
     private char sexo;
 
     // Adicionei os parâmetros email e senha no construtor

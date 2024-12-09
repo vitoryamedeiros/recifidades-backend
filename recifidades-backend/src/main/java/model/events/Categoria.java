@@ -1,7 +1,15 @@
-package model;
+package model.events;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "categoria")
 public class Categoria {
+    @Id
+    @Column(name = "catID")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int UUID;
+    @Column(name = "tipocategoria")
     private String tipoCategoria;
 
     public Categoria(int UUID, String tipoCategoria) {

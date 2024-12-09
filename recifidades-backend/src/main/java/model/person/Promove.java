@@ -1,4 +1,4 @@
-package model;
+package model.person;
 
 public class Promove {
     private int UUID;
