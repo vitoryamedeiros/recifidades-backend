@@ -30,6 +30,10 @@ public class PF extends person {
         this.sexo = sexo;
     }
 
+    public PF() {
+        super();
+    }
+
     @Override
     public String getTipoPessoa() {
         return "Pessoa Física";

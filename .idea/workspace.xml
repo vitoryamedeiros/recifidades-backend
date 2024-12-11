@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="Incluso as duas classes de repositorio e a classe de controle de eventos, ainda faltam ajustes finos" />
+    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="Incluso as duas classes de repositorio e a classe de controle de eventos, ainda faltam ajustes finos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/controller/ControlPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/controller/ControlPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/PF.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/PF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/PJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/PJ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/person.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioPerson.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +129,7 @@
       <workItem from="1730858435973" duration="293000" />
       <workItem from="1730858741807" duration="5650000" />
       <workItem from="1733613362232" duration="2972000" />
-      <workItem from="1733869663470" duration="6944000" />
+      <workItem from="1733869663470" duration="20409000" />
     </task>
     <task id="LOCAL-00001" summary="Mudança para acompanhar o projeto de BD">
       <option name="closed" value="true" />
@@ -156,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733912840830</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Incluso as duas classes de repositorio e a classe de controle de eventos, ainda faltam ajustes finos">
+      <option name="closed" value="true" />
+      <created>1733913755957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733913755957</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

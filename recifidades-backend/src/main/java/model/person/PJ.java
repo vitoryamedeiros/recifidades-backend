@@ -41,6 +41,10 @@ public class PJ extends person {
         this.nomeContato = nomeContato;
     }
 
+    public PJ() {
+
+    }
+
     public int getCnpj() {
         return cnpj;
     }

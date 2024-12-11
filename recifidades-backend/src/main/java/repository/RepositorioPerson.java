@@ -42,6 +42,16 @@ public class RepositorioPerson implements interfaceRecificidades{
         }
             return personwanted;
     }
+    @Override
+    public person BuscarPorId(int id){
+        person personwanted = null;
+        for (person person : persons) {
+            if (person.getUUID()== id) {
+                personwanted = person;
+            }
+        }
+        return personwanted;
+    }
 
     @Override
     public List<person> personList(){ return this.persons; }
