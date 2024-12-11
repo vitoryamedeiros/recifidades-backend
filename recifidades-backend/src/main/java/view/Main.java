@@ -8,37 +8,74 @@ package view;
  */
 
 import java.util.Scanner;
-import model.person.PF;
+import controller.ControlPerson;
+import controller.ControlEvents;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+      Scanner sc = new Scanner(System.in);
+      MenuPrincipal menuPrincipal = new MenuPrincipal();
+      ControlEvents controlEvents = new ControlEvents();
+      ControlPerson controlPerson = new ControlPerson();
+      String continuar;
+      int op, opc, ope;
 
-        System.out.println("Digite o email:");
-        String email = sc.nextLine();
+      do {
+          menuPrincipal.menu();
+          op = sc.nextInt();
 
-        System.out.println("Digite a senha:");
-        String senha = sc.nextLine();
-
-        System.out.println("Digite o CPF:");
-        String cpf = sc.nextLine();
-
-        System.out.println("Digite o nome:");
-        String nome = sc.nextLine();
-
-        System.out.println("Digite a data de nascimento (dd/MM/yyyy):");
-        String dataNascimento = sc.nextLine();
-
-        System.out.println("Digite o telefone:");
-        String telefone = sc.nextLine();
-
-        System.out.println("Digite o sexo (M/F):");
-        char sexo = sc.nextLine().charAt(0);
-
-        // Criar um objeto de Pessoa Física
-        PF pessoaFisica = new PF(email, senha, cpf, nome, dataNascimento, telefone, sexo);
-        pessoaFisica.exibirDados();
-
-        sc.close();
+          switch (op) {
+              case 1:
+                  menuPrincipal.MenuConta();
+                  opc = sc.nextInt();
+                  switch (opc) {
+                      case 1:
+                          controlPerson.criarperson();
+                          break;
+                      case 2:
+                          controlPerson.buscarPorEmail();
+                          break;
+                      case 3:
+                          controlPerson.buscarPorId();
+                          break;
+                      case 4:
+                          controlPerson.removerPersonPorId();
+                          break;
+                      case 5:
+                          controlPerson.ListarPersons();
+                          break;
+                      default:
+                          System.out.println("Opção inválida. Tente novamente!");
+                          break;
+                  }
+              case 2:
+                  menuPrincipal.MenuEvento();
+                  ope = sc.nextInt();
+                  switch (ope) {
+                      case 1:
+                          controlEvents.createEvent();
+                          break;
+                      case 2:
+                          controlEvents.FindEventByName();
+                          break;
+                      case 3:
+                          controlEvents.FindEventById();
+                          break;
+                      case 4:
+                          controlEvents.listAllEvents();
+                          break;
+                      case 5:
+                          controlEvents.DeleteEventById();
+                          break;
+                      default:
+                          System.out.println("Opção inválida. Tente novamente!");
+                          break;
+                  }
+              default:
+                  System.out.println("Opção inválida. Tente novamente!");
+          }
+          System.out.println("Deseja continuar? ");
+          continuar = sc.nextLine();
+      }while(continuar.equalsIgnoreCase("sim"));
     }
 }

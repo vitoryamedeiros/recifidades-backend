@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="Incluso as duas classes de repositorio e a classe de controle de eventos, ainda faltam ajustes finos">
+    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="Ajustes na classe ControlPerson">
+      <change afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/view/MenuPrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/controller/ControlPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/controller/ControlPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/PF.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/PF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/PJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/PJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/person.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioPerson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -129,7 +125,7 @@
       <workItem from="1730858435973" duration="293000" />
       <workItem from="1730858741807" duration="5650000" />
       <workItem from="1733613362232" duration="2972000" />
-      <workItem from="1733869663470" duration="20409000" />
+      <workItem from="1733869663470" duration="23430000" />
     </task>
     <task id="LOCAL-00001" summary="Mudança para acompanhar o projeto de BD">
       <option name="closed" value="true" />
@@ -171,7 +167,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733913755957</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Incluso as duas classes de repositorio e a classe de controle de eventos, ainda faltam ajustes finos">
+      <option name="closed" value="true" />
+      <created>1733948299549</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733948299549</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ajustes na classe ControlPerson">
+      <option name="closed" value="true" />
+      <created>1733948396216</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733948396216</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +204,7 @@
     <MESSAGE value="Mudança para acompanhar o projeto de BD" />
     <MESSAGE value="Ajustes para funcionamento" />
     <MESSAGE value="Incluso as duas classes de repositorio e a classe de controle de eventos, ainda faltam ajustes finos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Incluso as duas classes de repositorio e a classe de controle de eventos, ainda faltam ajustes finos" />
+    <MESSAGE value="Ajustes na classe ControlPerson" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes na classe ControlPerson" />
   </component>
 </project>
