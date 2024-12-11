@@ -83,7 +83,7 @@ public class ControlPerson {
     public void buscarPorId(){
         System.out.println("Informe o id: ");
         id = sc.nextInt();
-        System.out.println("Informações da conta: " + persons.);
+        System.out.println("Informações da conta: " + persons.BuscarPorId(id));
     }
 
     public void removerPersonPorId(){
