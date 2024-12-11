@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import model.events.Evento;
 
 @Entity
-@Table(name = participa)
+@Table(name = "participa")
 public class participa {
     @Id
     @Column(name = "participaID")
@@ -21,6 +21,10 @@ public class participa {
         this.participante = participante;
         this.evento = evento;
         this.valor = valor;
+    }
+
+    public participa() {
+
     }
 
     public person getParticipante() {

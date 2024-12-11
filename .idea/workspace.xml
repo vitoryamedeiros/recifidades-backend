@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="Ajustes na classe ControlPerson">
-      <change afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/view/MenuPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="implementados os menus e a classe main sem teste" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,6 +123,7 @@
       <workItem from="1730858741807" duration="5650000" />
       <workItem from="1733613362232" duration="2972000" />
       <workItem from="1733869663470" duration="23430000" />
+      <workItem from="1733949038447" duration="1366000" />
     </task>
     <task id="LOCAL-00001" summary="Mudança para acompanhar o projeto de BD">
       <option name="closed" value="true" />
@@ -183,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733948396216</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="implementados os menus e a classe main sem teste">
+      <option name="closed" value="true" />
+      <created>1733950402795</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733950402795</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +211,7 @@
     <MESSAGE value="Ajustes para funcionamento" />
     <MESSAGE value="Incluso as duas classes de repositorio e a classe de controle de eventos, ainda faltam ajustes finos" />
     <MESSAGE value="Ajustes na classe ControlPerson" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes na classe ControlPerson" />
+    <MESSAGE value="implementados os menus e a classe main sem teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementados os menus e a classe main sem teste" />
   </component>
 </project>
