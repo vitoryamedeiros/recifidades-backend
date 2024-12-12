@@ -26,6 +26,7 @@ public class ControlEvents {
         evento.setHoraEventoFim(sc.nextLine());
         System.out.println("Digite a capacidade do evento: ");
         evento.setQtMaxPessoas(sc.nextInt());
+        sc.nextLine();
         System.out.println("Digite a classificação indicativa do evento: ");
         evento.setClassificacao(sc.nextLine());
         EventsRepository.SaveEvents(evento);

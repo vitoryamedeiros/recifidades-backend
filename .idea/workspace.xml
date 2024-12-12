@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="implementados os menus e a classe main sem teste">
-      <change afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/interfaces/InterfacEvents.java" afterDir="false" />
+    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="Quase terminado, erro na conexão com banco usando jdbc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/factory/FactoryRecificidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/factory/FactoryRecificidades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/interfaces/interfaceRecificidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/interfaces/InterfacePersons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioEventos.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioEventos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/controller/ControlEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/controller/ControlEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/events/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/events/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/Promove.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/Promove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/participa.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/participa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/patrocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/patrocina.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/target/classes/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/vitoryamedeiros/recifidades-backend.git&quot;,
     &quot;accountId&quot;: &quot;a69781d6-8705-4c66-8df1-295473329bf8&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;vitoryamedeiros&quot;,
+    &quot;repository&quot;: &quot;recifidades-backend&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -61,32 +71,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Interface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main2&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/Downloads/FicrBank - Copy&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Interface.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "#2 on main2",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/andre/Downloads/FicrBank - Copy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\andre\Desktop\ADS\Segundo periodo\Aula de Quinta - POO\recifidades-backend\recifidades-backend\src\main\java\model" />
@@ -134,7 +145,9 @@
       <workItem from="1733613362232" duration="2972000" />
       <workItem from="1733869663470" duration="23430000" />
       <workItem from="1733949038447" duration="7550000" />
-      <workItem from="1734017425978" duration="997000" />
+      <workItem from="1734017425978" duration="3190000" />
+      <workItem from="1734029170494" duration="114000" />
+      <workItem from="1734029292275" duration="6223000" />
     </task>
     <task id="LOCAL-00001" summary="Mudança para acompanhar o projeto de BD">
       <option name="closed" value="true" />
@@ -224,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734002147095</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Quase terminado, erro na conexão com banco usando jdbc">
+      <option name="closed" value="true" />
+      <created>1734027601988</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1734027601988</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +268,7 @@
     <MESSAGE value="Incluso as duas classes de repositorio e a classe de controle de eventos, ainda faltam ajustes finos" />
     <MESSAGE value="Ajustes na classe ControlPerson" />
     <MESSAGE value="implementados os menus e a classe main sem teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementados os menus e a classe main sem teste" />
+    <MESSAGE value="Quase terminado, erro na conexão com banco usando jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quase terminado, erro na conexão com banco usando jdbc" />
   </component>
 </project>

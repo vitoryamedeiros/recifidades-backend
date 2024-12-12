@@ -10,10 +10,15 @@ public class participa {
     @Column(name = "participaID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int participaID;
-    @Column(name = "participante")
+
+    @ManyToOne
+    @JoinColumn(name = "participanteID")
     private person participante;
-    @Column(name = "evento")
+
+    @ManyToOne
+    @JoinColumn(name = "eventoID")
     private Evento evento;
+
     @Column(name = "valor")
     private double valor;
 

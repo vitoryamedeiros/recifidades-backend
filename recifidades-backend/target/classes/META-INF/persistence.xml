@@ -9,19 +9,17 @@
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <class>model.person.person</class>
+        <class>model.person.PJ</class>
+        <class>model.person.PF</class>
+        <class>model.events.Evento</class>
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:sqlserver://ANDRENOT\SQLEXPRESS:1433;databaseName=recificidades_java" />
-            <property name="jakarta.persistence.jdbc.user" value="ANDRENOT/andre" />
-            <property name="jakarta.persistence.jdbc.password" value="276613" />
-            <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServer2012Dialect" />
-            <property name="hibernate.show_sql" value="true" />
-            <property name="hibernate.format_sql" value="true" />
-            <property name="hibernate.jdbc.wrap_result_sets" value="false" />
-            <property name="hibernate.hibernate.cache.use_query_cache" value="true" />
-            <property name="eclipselink.ddl-generation" value="create-tables"/>
-            ]<property name="hbm2ddl.auto" value="create" />
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;instanceName=SQLEXPRESS;encrypt=false;trustServerCertificate=true;databaseName=recificidades_java" />
+            <property name="jakarta.persistence.jdbc.user" value="recificidades" />
+            <property name="jakarta.persistence.jdbc.password" value="New@reci#@!?" />
+            <property name="eclipselink.ddl-generation" value="create-tables" />
+            <property name="eclipselink.logging.level" value="FINE" />
+            <property name="eclipselink.target-database" value="SQLServer" />
         </properties>
     </persistence-unit>
-
 </persistence>
