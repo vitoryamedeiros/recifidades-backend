@@ -1,0 +1,22 @@
+Index: recifidades-backend/src/main/java/model/events/Evento.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model.events;\r\n\r\nimport jakarta.persistence.*;\r\n\r\n/**\r\n * @author\r\n * @version\r\n * @since\r\n * */\r\n@Entity\r\n@Table(name = \"evento\")\r\n@MappedSuperclass\r\npublic class Evento {\r\n    @Id\r\n    @Column(name = \"evID\")\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n    private int UUID;\r\n    @Column(name = \"nome\")\r\n    private String nome;\r\n    @Column(name = \"classificacao\")\r\n    private String classificacao;\r\n    @Column(name = \"dataevento\")\r\n    private String dataEvento;\r\n    @Column(name = \"horaeventoI\")\r\n    private String horaEventoInicio;\r\n    @Column(name = \"horaeventoF\")\r\n    private String horaEventoFim;\r\n    @Column(name = \"qtmaxp\")\r\n    private int qtMaxPessoas;\r\n    @Column(name = \"localevento\")\r\n    private String localEvento;\r\n\r\n    public Evento(String nome, String classificacao, String dataEvento, String horaEventoInicio, String horaEventoFim, int qtMaxPessoas, String localEvento) {\r\n        this.nome = nome;\r\n        this.classificacao = classificacao;\r\n        this.dataEvento = dataEvento;\r\n        this.horaEventoInicio = horaEventoInicio;\r\n        this.horaEventoFim = horaEventoFim;\r\n        this.qtMaxPessoas = qtMaxPessoas;\r\n        this.localEvento = localEvento;\r\n    }\r\n    public void exibirInformacoes() {\r\n        System.out.println(\"ID: \" + UUID + \", Nome: \" + nome + \", Local: \" + localEvento + \", Capacidade: \" + qtMaxPessoas);\r\n    }\r\n\r\n    public int getUUID() {\r\n        return UUID;\r\n    }\r\n\r\n    public String getNome() {\r\n        return nome;\r\n    }\r\n\r\n    public void setNome(String nome) {\r\n        this.nome = nome;\r\n    }\r\n\r\n    public String getClassificacao() {\r\n        return classificacao;\r\n    }\r\n\r\n    public void setClassificacao(String classificacao) {\r\n        this.classificacao = classificacao;\r\n    }\r\n\r\n    public String getDataEvento() {\r\n        return dataEvento;\r\n    }\r\n\r\n    public void setDataEvento(String dataEvento) {\r\n        this.dataEvento = dataEvento;\r\n    }\r\n\r\n    public String getHoraEventoInicio() {\r\n        return horaEventoInicio;\r\n    }\r\n\r\n    public void setHoraEventoInicio(String horaEventoInicio) {\r\n        this.horaEventoInicio = horaEventoInicio;\r\n    }\r\n\r\n    public String getHoraEventoFim() {\r\n        return horaEventoFim;\r\n    }\r\n\r\n    public void setHoraEventoFim(String horaEventoFim) {\r\n        this.horaEventoFim = horaEventoFim;\r\n    }\r\n\r\n    public int getQtMaxPessoas() {\r\n        return qtMaxPessoas;\r\n    }\r\n\r\n    public void setQtMaxPessoas(int qtMaxPessoas) {\r\n        this.qtMaxPessoas = qtMaxPessoas;\r\n    }\r\n\r\n    public String getLocalEvento() {\r\n        return localEvento;\r\n    }\r\n\r\n    public void setLocalEvento(String localEvento) {\r\n        this.localEvento = localEvento;\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/recifidades-backend/src/main/java/model/events/Evento.java b/recifidades-backend/src/main/java/model/events/Evento.java
+--- a/recifidades-backend/src/main/java/model/events/Evento.java	(revision 88f9fa03434d6d1a185c2857b694e5ebadfbb63e)
++++ b/recifidades-backend/src/main/java/model/events/Evento.java	(date 1733962011175)
+@@ -39,6 +39,11 @@
+         this.qtMaxPessoas = qtMaxPessoas;
+         this.localEvento = localEvento;
+     }
++
++    public Evento() {
++
++    }
++
+     public void exibirInformacoes() {
+         System.out.println("ID: " + UUID + ", Nome: " + nome + ", Local: " + localEvento + ", Capacidade: " + qtMaxPessoas);
+     }
