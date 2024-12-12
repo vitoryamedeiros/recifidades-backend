@@ -12,7 +12,7 @@ public interface interfaceRecificidades {
     List<person> personList();
     void inserirEvento(Evento evento);
     void alterarEvento(Evento evento);
-    void excluirEvento(String UUID);
+    void excluirEvento(int UUID);
     Evento BuscarEvento(String nome);
     List<Evento> EventoList();
 }

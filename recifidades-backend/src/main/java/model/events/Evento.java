@@ -41,6 +41,7 @@ public class Evento {
     }
 
     public Evento() {
+        
     }
 
     public void exibirInformacoes() {

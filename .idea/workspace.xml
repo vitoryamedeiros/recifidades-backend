@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="implementados os menus e a classe main sem teste" />
+    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="implementados os menus e a classe main sem teste">
+      <change beforePath="$PROJECT_DIR$/.idea/recifidades-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recifidades-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/interfaces/interfaceRecificidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/interfaces/interfaceRecificidades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/events/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/events/Evento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioEventos.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioEventos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/target/classes/model/Categoria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/target/classes/model/Evento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/target/classes/model/PF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/target/classes/model/PJ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/target/classes/model/Patrocinio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/target/classes/model/Promove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/target/classes/model/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/target/classes/model/participa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/target/classes/view/Main.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,32 +67,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Interface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main2&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/Downloads/FicrBank - Copy&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Interface.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/grazi/Downloads/FicrBank - Copy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\andre\Desktop\ADS\Segundo periodo\Aula de Quinta - POO\recifidades-backend\recifidades-backend\src\main\java\model" />
@@ -100,8 +117,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
