@@ -39,6 +39,10 @@ public class Evento {
         this.qtMaxPessoas = qtMaxPessoas;
         this.localEvento = localEvento;
     }
+
+    public Evento() {
+    }
+
     public void exibirInformacoes() {
         System.out.println("ID: " + UUID + ", Nome: " + nome + ", Local: " + localEvento + ", Capacidade: " + qtMaxPessoas);
     }

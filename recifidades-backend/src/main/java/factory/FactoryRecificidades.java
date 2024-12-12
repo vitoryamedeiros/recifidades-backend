@@ -6,7 +6,7 @@ import jakarta.persistence.Persistence;
 
 public class FactoryRecificidades {
     public static EntityManagerFactory emf;
-    public static EntityManager  configFactoryPerson(){
+    public static EntityManager ConfigFactoryRecificidades(){
         emf = Persistence.createEntityManagerFactory("Recificidades_java");
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();

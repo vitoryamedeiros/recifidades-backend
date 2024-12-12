@@ -20,6 +20,10 @@ public abstract class person {
         this.senha = senha;
     }
 
+    public person() {
+
+    }
+
     public int getUUID() {
         return UUID;
     }
