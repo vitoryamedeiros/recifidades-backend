@@ -1,12 +1,12 @@
 package repository;
 
-import interfaces.interfaceRecificidades;
+import interfaces.InterfacePersons;
 import model.person.person;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class RepositorioPerson implements interfaceRecificidades{
+public class RepositorioPerson implements InterfacePersons {
     private List<person> persons;
 
     public RepositorioPerson() {

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="implementados os menus e a classe main sem teste" />
+    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="implementados os menus e a classe main sem teste">
+      <change afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/interfaces/InterfacEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/factory/FactoryRecificidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/factory/FactoryRecificidades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/interfaces/interfaceRecificidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/interfaces/InterfacePersons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioEventos.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioEventos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/repository/RepositorioPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recifidades-backend/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/target/classes/META-INF/persistence.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -123,7 +133,8 @@
       <workItem from="1730858741807" duration="5650000" />
       <workItem from="1733613362232" duration="2972000" />
       <workItem from="1733869663470" duration="23430000" />
-      <workItem from="1733949038447" duration="1366000" />
+      <workItem from="1733949038447" duration="7550000" />
+      <workItem from="1734017425978" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="Mudança para acompanhar o projeto de BD">
       <option name="closed" value="true" />
@@ -189,7 +200,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733950402795</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="implementados os menus e a classe main sem teste">
+      <option name="closed" value="true" />
+      <created>1733950580898</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733950580898</updated>
+    </task>
+    <task id="LOCAL-00010" summary="implementados os menus e a classe main sem teste">
+      <option name="closed" value="true" />
+      <created>1734002131227</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734002131227</updated>
+    </task>
+    <task id="LOCAL-00011" summary="implementados os menus e a classe main sem teste">
+      <option name="closed" value="true" />
+      <created>1734002147095</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1734002147095</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

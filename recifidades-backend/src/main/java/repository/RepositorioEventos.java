@@ -1,12 +1,12 @@
 package repository;
 
-import interfaces.interfaceRecificidades;
+import interfaces.InterfacEvents;
 import model.events.Evento;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class RepositorioEventos implements interfaceRecificidades {
+public class RepositorioEventos implements InterfacEvents {
     private List<Evento> eventos;
 
     public RepositorioEventos() {
@@ -22,4 +22,30 @@ public class RepositorioEventos implements interfaceRecificidades {
         eventos.set(index, evento);
     }
 
+    @Override
+    public Evento BuscarEvento(int id){
+        Evento eventwanted = null;
+        for (Evento evento : eventos) {
+            if (evento.getUUID() == id) {
+                eventwanted = evento;
+            }
+        }
+        return eventwanted;
+    }
+
+    @Override
+    public List<Evento> EventoList(){ return this.eventos; }
+
+    @Override
+    public void excluirEvento(int id) {
+        int posicao = -1;
+        for (Evento evento : eventos) {
+            if (evento.getUUID() == id) {
+                posicao = eventos.indexOf(evento);
+            }
+            if (posicao != -1) {
+                eventos.remove(posicao);
+            }
+        }
+    }
 }
