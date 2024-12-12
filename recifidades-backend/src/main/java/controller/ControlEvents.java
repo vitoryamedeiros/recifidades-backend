@@ -29,6 +29,8 @@ public class ControlEvents {
         sc.nextLine();
         System.out.println("Digite a classificação indicativa do evento: ");
         evento.setClassificacao(sc.nextLine());
+        System.out.println("Digite o local do evento");
+        evento.setLocalEvento(sc.nextLine());
         EventsRepository.SaveEvents(evento);
     }
 

@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="Quase terminado, erro na conexão com banco usando jdbc">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/pom.xml" afterDir="false" />
+    <list default="true" id="5746cbbb-18d4-43c8-aacb-1fe367afe6e3" name="Changes" comment="Oque deu pra fazer">
       <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/controller/ControlEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/controller/ControlEvents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/events/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/events/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/Promove.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/Promove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/participa.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/participa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/patrocina.java" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/java/model/person/patrocina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recifidades-backend/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recifidades-backend/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +140,7 @@
       <workItem from="1733949038447" duration="7550000" />
       <workItem from="1734017425978" duration="3190000" />
       <workItem from="1734029170494" duration="114000" />
-      <workItem from="1734029292275" duration="6223000" />
+      <workItem from="1734029292275" duration="6869000" />
     </task>
     <task id="LOCAL-00001" summary="Mudança para acompanhar o projeto de BD">
       <option name="closed" value="true" />
@@ -245,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734027601988</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Oque deu pra fazer">
+      <option name="closed" value="true" />
+      <created>1734036738046</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734036738046</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +270,7 @@
     <MESSAGE value="Ajustes na classe ControlPerson" />
     <MESSAGE value="implementados os menus e a classe main sem teste" />
     <MESSAGE value="Quase terminado, erro na conexão com banco usando jdbc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quase terminado, erro na conexão com banco usando jdbc" />
+    <MESSAGE value="Oque deu pra fazer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oque deu pra fazer" />
   </component>
 </project>
